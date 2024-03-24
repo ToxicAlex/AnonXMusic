@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="CAACAgUAAx0EeHjNzQACC-1l__YTLJhWFDQwP9wIjTSHERXGXgACjwQAAjRU0VW4kdsdISdvmh4E")
+  <sti src="CAACAgUAAx0EeHjNzQACC-1l__YTLJhWFDQwP9wIjTSHERXGXgACjwQAAjRU0VW4kdsdISdvmh4E")
  
  </p>
 
@@ -23,7 +23,7 @@
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/TheFriendsHome"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/TheFri"endsHome"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
