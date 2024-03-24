@@ -25,4 +25,4 @@
 <a href="https://telegram.me/Tfcnetwork"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _OWNER [OWNER](https://t.me/afk_babu)_ </b>
+- <b> [OWNER](https://t.me/afk_babu) </b>
