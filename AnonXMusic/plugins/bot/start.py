@@ -84,7 +84,8 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEBHnlkpBWiWXSw-MaI8cBtTAmaD5zg4gACwQMAAve60FVhKh9gNGkFcC8E")
+            await message.reply_sticker(
+        "CAACAgUAAxkBAAEBHnlkpBWiWXSw-MaI8cBtTAmaD5zg4gACwQMAAve60FVhKh9gNGkFcC8E")
             await message.reply_photo(
               photo="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg",
               caption=_["start_2"].format(message.from_user.mention, app.mention),
