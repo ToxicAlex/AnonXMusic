@@ -46,7 +46,7 @@ async def start_pm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("💥")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -84,10 +84,10 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-            await message.reply_photo(
-              photo="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg",
-              caption=_["start_2"].format(message.from_user.mention, app.mention),
-              reply_markup=InlineKeyboardMarkup(out),
+        await message.reply_photo(
+            photo="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg",
+            caption=_["start_2"].format(message.from_user.mention, app.mention),
+            reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
             return await app.send_message(
@@ -102,7 +102,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        photo="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg",
+        photo=config.START_IMG_URL,
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -137,7 +137,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_photo(
-                    photo="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg",
+                    photo=config.START_IMG_URL,
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
