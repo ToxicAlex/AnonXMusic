@@ -40,10 +40,10 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Tfcnetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/thefriends_club")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheFriendsHome")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True ))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -78,7 +78,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/5a32f27c032a0f8d7dbee.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/2cd51c02ca022e6162ea7.jpg"
