@@ -1,15 +1,3 @@
-<h2 align="center">
-    ──「 ᴍᴜsɪᴄ 」──
-</h2>
-
-<p align="center">
-  <sti src="CAACAgUAAx0EeHjNzQACC-1l__YTLJhWFDQwP9wIjTSHERXGXgACjwQAAjRU0VW4kdsdISdvmh4E")
- 
- </p>
-
-<p align="center">
-  <img src="https://te.legra.ph/file/169fcc1d286270b50f4fd.jpg">
-</p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
@@ -30,4 +18,4 @@
 <a href="https://telegram.me/Tfcnetwork"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> [OWNER](https://t.me/afk_babu) </b>
+- <b> [OWNER](https://t.me/sxn0w) </b>
