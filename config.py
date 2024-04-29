@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = ("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_https://t.me/JAI_SHREE_RAM_CHANNEL"),
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/JAY_SHREE_RAM_CHATTING")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Feelings4s"),
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THE_ROYAL_CHATTING")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/bb24eb676c8d19ced547d.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/16bf30bf68842ea735775.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e9b100e4a37d83f4126f0.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/9d32e98be2e25cd233aa5.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
@@ -113,4 +113,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
